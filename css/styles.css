@@ -1,3 +1,32 @@
-{
-
+body{
+	background-color: white;
+	height: 4000px;
+}
+.navbar-inverse{
+	border: 1px solid LightSeaGreen;
+}
+.navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-tops{
+	position: fixed;
+}
+  
+/*  navbar-buttons */
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a{
+	color: LightSeaGreen;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover{
+	background-color: LightSeaGreen;
+}
+.navbar-inverse .navbar-nav>li>a{
+	text-align:center;
+	color: LightSeaGreen;
+	transition: background-color 0.5s;
+	transition-timing-function: ease;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	background-color: LightSeaGreen;
+	color:black;
+	font-size:large;
+	border:1px solid white;
+	font-weight:700;
+	padding-bottom:10px;
 }
