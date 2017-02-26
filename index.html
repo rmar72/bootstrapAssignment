@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>X Site</title>
+		<title>Gen-XY Stepz</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/styles.css" >
-	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
 	<body>
 		<!-- NAVIGATION BAR -->
-		
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container-fluid">
 			  <!-- Brand and toggle get grouped for better mobile display -->
 			  <div class="navbar-header" >
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="padding:10px 14px; width:10px">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 				  <span class="sr-only">Toggle navigation</span>
 				  <span class="icon-bar"></span>
 				  <span class="icon-bar"></span>
 				  <span class="icon-bar"></span>
 				</button>
-				<img src="#" />
-
+				<img src="#"/>
 			  </div>
-
 
 			  <!-- Collect the nav links, forms, and other content for toggling -->
 			  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -43,26 +41,89 @@
 
 
 				<ul class="nav navbar-nav navbar-right">
-
 				  <li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SEARCH<span class="caret"></span></a>
-					<ul class="dropdown-menu" style="background-color:rgba(5,5,5,.7);">
-					  <li role="separator" class="divider"></li>
-					  <li><input type="text" placeholder="SEARCH" style="outline-color:LightSeaGreen"></li>
-					  <li role="separator" class="divider"></li>
-					  <li><input type="submit" value="SUBMIT"></li>
+					<ul class="dropdown-menu" style="background-color:rgba(5,5,5,.7);"> <!-- blk background -->
+						<li>
+							<input type="text" style="background-color:rgba(25,25,25,.5); outline:none; border:none; border-bottom:3px solid silver;
+														padding-left:10px; color:LightSeaGreen; font-size:40px; min-width:200px; max-width:77%"> <!-- tweaked dropdown menu-->
+							<button><a href="#"><i class="fa fa-search fa-4x" aria-hidden="true"></i></a></button>
+						</li>	
 					</ul>
 				  </li>
 				  
-				  <li><a href="#" id="userLogin">LOG IN</a></li>
-				  <li ><a href="#">SIGN UP</a></li>
-
+				  <li><a href="#">LOG IN</a></li>
+				  <li><a href="#">SIGN UP</a></li>
 				</ul>
 			  </div><!-- /.navbar-collapse -->
-
 			</div><!-- /.container-fluid -->
 		</nav>
+		
+		<!-- TOP MODULE -->
+		
+		<div class="jumbotron">
+			<div class="row">
+				<!-- COL 1-->
+					<div class="col-lg-6 col-md-8 col-sm-11 col-xs-12">  
+						 <div class="container-fluid">
+							<div class="jumbotron">
 
+							  <div class="container">
+								<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+								  <!-- Indicators -->
+								  <ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+								  </ol>
+
+								  <!-- Wrapper for slides -->
+								  <div class="carousel-inner" role="listbox" >
+									<div class="item active" >
+									  <img src="images/iot1.png" class="img-responsive img-thumbnail" alt="Responsive image">
+									  <div class="carousel-caption">
+										Iot is estimated to be a xxbillion market by the year 2020
+									  </div>
+									</div>
+									<div class="item">
+									  <img src="images/iot2.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+									  <div class="carousel-caption">
+
+									  </div>
+									</div>
+									<div class="item">
+									  <img src="images/iot3.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+									  <div class="carousel-caption">
+
+									  </div>
+									</div>
+								  </div>
+
+								  <!-- Controls -->
+								  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								  </a>
+								  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								  </a>
+								</div>
+							  </div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- COL 2-->
+					<div id="paraSection" class="col-lg-4 col-md-3 col-sm-12 col-xs-12"> 	
+						<p>Donec ac velit placerat, ornare justo a, cursus leo.
+							Ut ut elementum velit. Sed quis porta elit. Cras facilisis id massa ac sagittis. Cras facilisis mollis felis,
+							eget congue dui gravida a. Sed tincidunt pharetra semper. Donec ac metus interdum, semper arcu quis, bibendum
+							tellus. &nbsp; &nbsp; <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+						</p>
+					</div>	
+			</div>		
+		</div>
 
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
