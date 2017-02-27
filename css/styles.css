@@ -1,7 +1,9 @@
 body{
 	background-color: white;
-	height: 1000px;
+	height: 2000px;
 }
+													/* Navbar */
+
 .navbar-inverse{
 	border: 1px solid LightSeaGreen;
 }
@@ -31,6 +33,19 @@ body{
 	font-weight:900;
 }
 
+/* Menu Dropdown*/
+.dropdown-menu>li>a{
+	color:rgba(195, 125, 218);
+	font-size:18px;
+}
+.dropdown-menu>li>a:hover{
+	color:white;
+	font-size:25px;
+	background-color:rgba(189, 119, 213, 0.75) !important; /* For mobile size, enables purple background on hover*/
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+	color:rgba(195, 125, 218);
+}	
 /* Dropdown search button*/
 button{
 	background-color:rgba(25,25,25,.5);
@@ -47,7 +62,7 @@ button a:hover{
 }	
 
 
-/* Top Module */
+												/* Top Module */
 
 /* 1st Section */
 .jumbotron{
@@ -62,6 +77,7 @@ button a:hover{
 .carousel {
 	width:100%;
 }
+
 /* 2nd Section */	
 #paraSection{
 	padding-top:70px;
@@ -69,7 +85,43 @@ button a:hover{
 	color:silver;
 }
 #paraSection .btn-primary{
-	background-color:#7647a2;
+	background-color:rgba(189, 119, 213, 0.75);
 	outline:none;
 	border:1px solid white;
+}
+
+
+												/* Mid-Section Module */
+.iconsBar{
+	float:right;
+	padding-bottom:10px;
+}
+.mid-row{
+	background-color:lightgrey;
+	margin:100px 13px;
+	padding:10px;
+}
+.newsLetter{
+	background:url(../images/e5.jpg);
+	border-radius:25px;
+	color:white;
+	font-weight:700;
+	margin:10px 0 10px 10px; 
+	padding:30px 0; 
+	height:280px;
+}	
+.blogPost{
+	background-color:#F5F5DC;
+	border:1px solid grey;
+	margin:10px 0;
+}
+.blogPost img{
+	height:180px;
+	width:70%;
+	margin:5px auto;
+}
+.blogPost a{
+	color:lightSeaGreen;
+	margin-left:15px;
+	font-size:15px;
 }
